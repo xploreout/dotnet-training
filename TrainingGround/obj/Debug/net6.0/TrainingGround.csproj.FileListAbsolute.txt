@@ -1,0 +1,12 @@
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/bin/Debug/net6.0/TrainingGround.deps.json
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/bin/Debug/net6.0/TrainingGround.dll
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/bin/Debug/net6.0/TrainingGround.pdb
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.csproj.AssemblyReference.cache
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.AssemblyInfoInputs.cache
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.AssemblyInfo.cs
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.csproj.CoreCompileInputs.cache
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.dll
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/refint/TrainingGround.dll
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/TrainingGround.pdb
+/Users/tanlui/salt/precourse/dotnet_trainingGround/TrainingGround/obj/Debug/net6.0/ref/TrainingGround.dll
