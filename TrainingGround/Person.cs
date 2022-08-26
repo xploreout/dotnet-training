@@ -25,6 +25,10 @@ public class Person {
     _name = "John";
     _birthYear = 2000;
   }
+  public Person(string aName)
+  {
+    Name = aName;
+  }
   public Person(string aName, int aBirthYear)
   {
     Name = aName;
