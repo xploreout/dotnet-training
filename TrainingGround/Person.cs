@@ -1,6 +1,6 @@
 public class Person {
   public double LengthInMeters;
-  // public int Age;
+  public int Age;
   
   //----------------
   private string? _name;
@@ -25,16 +25,19 @@ public class Person {
     _name = "John";
     _birthYear = 2000;
   }
-  public Person(string name, int birthYear)
+  public Person(string aName, int aBirthYear)
   {
-    Name = name;
-    BirthYear = birthYear;
-    // Age = GetAge(2022)
+    Name = aName;
+    BirthYear = aBirthYear;
+    setAge(aBirthYear, 2022);
+  }
+
+  void setAge(int aBirthYear, int aCurrentYear){
+    Age = aCurrentYear - aBirthYear;
   }
 
   public object GetAge(int currentYear)
   {
-
     return currentYear - BirthYear;
   }
 }
