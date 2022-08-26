@@ -28,4 +28,15 @@ public class PersonTests {
     Assert.Equal(p1982.Age, 40);
     Assert.Equal(p1982.BirthYear, 1982);
   }
+
+  [Theory]
+  [InlineData("Sam Adam", 1982, 40)]
+  [InlineData("Sam Adam", 2002, 20)]
+  public void a_person_born_on_1982_test(string aName, int aBirthYear, int ExpectedAge) 
+  {
+    var person1982 = new Person(aName, aBirthYear);
+
+    Assert.Equal(ExpectedAge, person1982.Age);
+  }
+
 }
