@@ -2,28 +2,25 @@ public class Person {
   public double LengthInMeters;
   public int Age;
   
-  //----------------
-  private string? _name;
-  public string? Name
+  private string? _name;  //field
+  public string? Name //property
   {
     get { return _name; }
     set { this._name = value; }
   }
-  //-------end  name------------
 
-  //---making birthYear public get and private set
   private int? _birthYear;
   public int? BirthYear 
   {
     get { return _birthYear;}
     set { _birthYear = value; }
   }
-  //---end birthYear---
+// shorthand way ---- other way to write it -----
+// public int? BirthYear
+// { get;set; }
 
   //default..but as soon as we created Person w arg, we need to specific the fields
   public Person() {
-    _name = "John";
-    _birthYear = 2000;
   }
   public Person(string aName)
   {
@@ -36,9 +33,11 @@ public class Person {
     setAge(aBirthYear, 2022);
   }
 
+ 
   void setAge(int aBirthYear, int aCurrentYear){
     Age = aCurrentYear - aBirthYear;
   }
+
 
   public object GetAge(int currentYear)
   {

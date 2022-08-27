@@ -2,11 +2,13 @@ namespace TrainingGround
 {
   public class Employee :  Person
   {
-    public Employee(string name, string employeeId) : base(name)
+    public Employee() {}
+    public Employee(string Name, string aEmployeeId) : base(Name)
     {
-      this.EmployeeId = employeeId;
+      this.EmployeeId = aEmployeeId;
+    
     }
 
-    public string EmployeeId { get; set; }
+    public string? EmployeeId { get; set; }
   }
 }
